@@ -22,7 +22,6 @@ void AObstacleSpawner::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActo
 {
 	if (OtherActor->GetClass()->IsChildOf(APlayerCharacter::StaticClass()))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Overlap"));
 		SpawnRandomObstacle();
 		MoveTriggerBox();
 	}
