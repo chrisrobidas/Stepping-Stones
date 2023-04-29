@@ -14,21 +14,21 @@ APlayerCharacter::APlayerCharacter()
 {
 	PrimaryActorTick.bCanEverTick = true;
 
-	Capsule = GetCapsuleComponent();
-	Capsule->SetCapsuleHalfHeight(88.0f);
-	Capsule->SetCapsuleRadius(40.0f);
+	_capsule = GetCapsuleComponent();
+	_capsule->SetCapsuleHalfHeight(88.0f);
+	_capsule->SetCapsuleRadius(40.0f);
 
-	PlayerCharacterMesh = GetMesh();
+	_playerCharacterMesh = GetMesh();
 
-	MainCameraArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
-	MainCameraArm->SetupAttachment(GetRootComponent());
-	MainCameraArm->TargetArmLength = 1000.0f;
-	MainCameraArm->bUsePawnControlRotation = false;
+	_mainCameraArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	_mainCameraArm->SetupAttachment(GetRootComponent());
+	_mainCameraArm->TargetArmLength = 1000.0f;
+	_mainCameraArm->bUsePawnControlRotation = false;
 
-	MainCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("MainCamera"));
-	MainCamera->SetupAttachment(MainCameraArm, USpringArmComponent::SocketName);
+	_mainCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("MainCamera"));
+	_mainCamera->SetupAttachment(_mainCameraArm, USpringArmComponent::SocketName);
 
-	MainCamera->bUsePawnControlRotation = false;
+	_mainCamera->bUsePawnControlRotation = false;
 
 	JumpMaxHoldTime = 1.0f;
 
@@ -39,11 +39,11 @@ void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	if (APlayerController* PlayerController = Cast<APlayerController>(GetController()))
+	if (APlayerController* playerController = Cast<APlayerController>(GetController()))
 	{
-		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
+		if (UEnhancedInputLocalPlayerSubsystem* subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(playerController->GetLocalPlayer()))
 		{
-			Subsystem->AddMappingContext(PlayerCharacterMappingContext, 0);
+			subsystem->AddMappingContext(_playerCharacterMappingContext, 0);
 		}
 	}
 }
@@ -52,10 +52,10 @@ void APlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-	if (UEnhancedInputComponent* EnhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
+	if (UEnhancedInputComponent* enhancedInputComponent = CastChecked<UEnhancedInputComponent>(PlayerInputComponent))
 	{
-		EnhancedInputComponent->BindAction(MakeJumpAction, ETriggerEvent::Triggered, this, &APlayerCharacter::MakeJump);
-		EnhancedInputComponent->BindAction(StopJumpAction, ETriggerEvent::Triggered, this, &APlayerCharacter::StopJump);
+		enhancedInputComponent->BindAction(_makeJumpAction, ETriggerEvent::Triggered, this, &APlayerCharacter::MakeJump);
+		enhancedInputComponent->BindAction(_stopJumpAction, ETriggerEvent::Triggered, this, &APlayerCharacter::StopJump);
 	}
 }
 
@@ -68,22 +68,20 @@ void APlayerCharacter::Tick(float DeltaTime)
 
 void APlayerCharacter::MakeJump(const FInputActionValue& Value)
 {
-	const bool CurrentValue = Value.Get<bool>();
+	const bool currentValue = Value.Get<bool>();
 
-	if (CurrentValue)
+	if (currentValue)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Jump"));
 		Jump();
 	}
 }
 
 void APlayerCharacter::StopJump(const FInputActionValue& Value)
 {
-	const bool CurrentValue = Value.Get<bool>();
+	const bool currentValue = Value.Get<bool>();
 
-	if (!CurrentValue)
+	if (!currentValue)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Stop Jump"));
 		StopJumping();
 	}
 }

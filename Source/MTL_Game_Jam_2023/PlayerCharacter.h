@@ -16,21 +16,19 @@ class MTL_GAME_JAM_2023_API APlayerCharacter : public ACharacter
 	GENERATED_BODY()
 
 public:
-	// Sets default values for this character's properties
 	APlayerCharacter();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
-	UInputMappingContext* PlayerCharacterMappingContext;
+	UInputMappingContext* _playerCharacterMappingContext;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
-	UInputAction* MakeJumpAction;
+	UInputAction* _makeJumpAction;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
-	UInputAction* StopJumpAction;
+	UInputAction* _stopJumpAction;
 
 	void MakeJump(const FInputActionValue& Value);
 	void StopJump(const FInputActionValue& Value);
@@ -46,14 +44,14 @@ public:
 
 private:
 	UPROPERTY(VisibleAnywhere)
-	UCapsuleComponent* Capsule;
+	UCapsuleComponent* _capsule;
 
 	UPROPERTY(VisibleAnywhere)
-	USkeletalMeshComponent* PlayerCharacterMesh;
+	USkeletalMeshComponent* _playerCharacterMesh;
 
 	UPROPERTY(VisibleAnywhere, Category = Camera)
-	class USpringArmComponent* MainCameraArm;
+	class USpringArmComponent* _mainCameraArm;
 
 	UPROPERTY(VisibleAnywhere, Category = Camera)
-	class UCameraComponent* MainCamera;
+	class UCameraComponent* _mainCamera;
 };
