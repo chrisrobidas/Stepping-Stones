@@ -7,6 +7,7 @@ AObstacleSpawner::AObstacleSpawner()
 	_triggerBox = CreateDefaultSubobject<UBoxComponent>(TEXT("ObstacleSpawnerTriggerBox"));
 	_triggerBox->SetupAttachment(GetRootComponent());
 	_triggerBox->SetBoxExtent(FVector(200, 200, 2000), false);
+	_triggerBox->SetGenerateOverlapEvents(true);
 
 	PrimaryActorTick.bCanEverTick = false;
 }
@@ -14,6 +15,7 @@ AObstacleSpawner::AObstacleSpawner()
 void AObstacleSpawner::BeginPlay()
 {
 	Super::BeginPlay();
+	_triggerBox->OnComponentBeginOverlap.AddDynamic(this, &AObstacleSpawner::OnOverlapBegin);
 
 	SpawnRandomObstacle();
 }

@@ -25,6 +25,7 @@ private:
 	double _nextObstacleX;
 	double _nextObstacleZ;
 
+	UPROPERTY(EditAnywhere)
 	UBoxComponent* _triggerBox;
 
 	TArray<AObstacleBase*> _spawnedObstacles;
