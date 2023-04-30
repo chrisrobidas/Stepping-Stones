@@ -15,6 +15,12 @@ class MTL_GAME_JAM_2023_API AObstacleSpawner : public AActor
 public:
 	AObstacleSpawner();
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool _isFireUnlocked;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool _isShieldUnlocked;
+
 protected:
 	virtual void BeginPlay() override;
 
@@ -38,13 +44,6 @@ protected:
 	TArray<TSubclassOf<AObstacleBase>> _spawnableMiddleAgeProps;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AObstacleBase>> _spawnableModernProps;
-
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	bool _isFireUnlocked;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	bool _isShieldUnlocked;
 
 	int _currentEra = 0;
 	int _nbOfObstaclesSpawnedForEra = 0;
