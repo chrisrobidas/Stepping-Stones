@@ -20,6 +20,16 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AObstacleBase>> _spawnableObstacles;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnablePrehistoricObstacles;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnableMiddleAgeObstacles;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnableModernObstacles;
+
+	int _currentEra = 0;
+	int _nbOfObstaclesSpawnedForEra = 0;
+	int _nbOfObstaclesUntilTransition = 10;
 
 private:
 	double _nextObstacleX;
@@ -41,4 +51,7 @@ private:
 
 	UFUNCTION()
 	TSubclassOf<AObstacleBase> ChooseRandomObstacle();
+
+	UFUNCTION()
+	TSubclassOf<AObstacleBase> ChooseRandomObstacleFromCurrentEra();
 };
