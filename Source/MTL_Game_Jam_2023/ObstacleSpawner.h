@@ -19,17 +19,29 @@ protected:
 	virtual void BeginPlay() override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<TSubclassOf<AObstacleBase>> _spawnableObstacles;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AObstacleBase>> _spawnablePrehistoricObstacles;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AObstacleBase>> _spawnableMiddleAgeObstacles;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AObstacleBase>> _spawnableModernObstacles;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnablePrehistoricBackground;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnableMiddleAgeBackground;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnableModernBackground;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnablePrehistoricProps;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnableMiddleAgeProps;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AObstacleBase>> _spawnableModernProps;
+
 	int _currentEra = 0;
 	int _nbOfObstaclesSpawnedForEra = 0;
-	int _nbOfObstaclesUntilTransition = 10;
+	int _nbOfObstaclesUntilTransition = 2;
 
 private:
 	double _nextObstacleX;
@@ -39,7 +51,9 @@ private:
 	UBoxComponent* _triggerBox;
 
 	TArray<AObstacleBase*> _spawnedObstacles;
-	
+	TArray<AObstacleBase*> _spawnedBackgrounds;
+	TArray<AObstacleBase*> _spawnedProps;
+
 	UFUNCTION()
 	void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
@@ -47,11 +61,20 @@ private:
 	void SpawnRandomObstacle();
 
 	UFUNCTION()
+	void SpawnRandomBackground();
+
+	UFUNCTION()
+	void SpawnRandomProp();
+
+	UFUNCTION()
 	void MoveTriggerBox();
 
 	UFUNCTION()
-	TSubclassOf<AObstacleBase> ChooseRandomObstacle();
+	TSubclassOf<AObstacleBase> ChooseRandomObstacleFromCurrentEra();
 
 	UFUNCTION()
-	TSubclassOf<AObstacleBase> ChooseRandomObstacleFromCurrentEra();
+	TSubclassOf<AObstacleBase> ChooseRandomBackgroundFromCurrentEra();
+
+	UFUNCTION()
+	TSubclassOf<AObstacleBase> ChooseRandomPropFromCurrentEra();
 };
