@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC5FFE79-6C8D-46CE-AD2F-7A4D69DB7A88}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Player" ID="{FC5FFE79-6C8D-46CE-AD2F-7A4D69DB7A88}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="1"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Player_FT" ID="{FE2F0C9A-5D3C-4964-ACB9-2478588BED8D}">
+					<ChildrenList>
+						<Action Name="" ID="{FE7DFF55-3D6D-43A6-9936-B02585865FE8}" ShortID="655504076">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Player_FT" ID="{5D8DFEA4-EB85-4D7C-8385-FE714D4C5697}" WorkUnitID="{1BA7495C-EEF3-4180-813D-00E9B8B0E05F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Jump_Surfaces_Land" ID="{9DD7574E-53E6-48CC-A90E-AD8B34CDF0DD}">
+					<ChildrenList>
+						<Action Name="" ID="{6EE5F673-9645-4013-8811-836263FAFFB9}" ShortID="45229356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SW_Player_Jump_Surfaces" ID="{00CD5F43-79D2-4994-9B6D-51566485D09D}" WorkUnitID="{1BA7495C-EEF3-4180-813D-00E9B8B0E05F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Shield_Block" ID="{0D9F4941-1721-45E1-A1AC-A82CA19F1F1D}">
+					<ChildrenList>
+						<Action Name="" ID="{61474AA1-FC6D-46F7-A29D-3E887D3AD127}" ShortID="33415248">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Player_Shield_Block" ID="{A0356AA1-30F7-48FB-8870-E3639BBB81D9}" WorkUnitID="{1BA7495C-EEF3-4180-813D-00E9B8B0E05F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Player_Torch" ID="{92DA51D6-5EC6-41C6-BC3E-9041353FA11B}">
+					<ChildrenList>
+						<Action Name="" ID="{6DAB2392-D4ED-433B-8402-BE554F842636}" ShortID="411322715">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SQ_Player_Torch" ID="{4EE311ED-1712-41F8-A0BF-A9E1B835AA86}" WorkUnitID="{1BA7495C-EEF3-4180-813D-00E9B8B0E05F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

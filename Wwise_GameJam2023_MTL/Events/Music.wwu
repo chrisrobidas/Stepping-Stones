@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8724E6C1-519E-4AFC-92AF-2473CE055276}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Music" ID="{8724E6C1-519E-4AFC-92AF-2473CE055276}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_Music__Epoque" ID="{1F8192A3-B789-4F0A-A0B4-F58F9C15C784}">
+					<ChildrenList>
+						<Action Name="" ID="{2CBEA5C0-591C-4DC8-A685-3C16CB9A56A5}" ShortID="981158864">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Époque" ID="{13ACA4A2-8BA5-4CD0-AEC3-9A245F01A3B6}" WorkUnitID="{56B63D01-204E-413A-978D-C5BC23372AE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Stinger_Portal_Period" ID="{7D6EE120-C87C-4847-97CA-DAC45117620F}">
+					<ChildrenList>
+						<Action Name="" ID="{E5EC309A-566E-48A4-A338-78B75BE58D7D}" ShortID="470537352">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger_Portal_Period" ID="{BBEC5DE2-8D38-4B71-A922-303C92B64EE9}" WorkUnitID="{56B63D01-204E-413A-978D-C5BC23372AE3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

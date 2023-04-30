@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7C9F2ABC-979F-4068-962D-7B9826584152}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{7C9F2ABC-979F-4068-962D-7B9826584152}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBankGameJam" ID="{3C742C9E-43C3-4FDC-8B4D-E25E8EDFB0D4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Player_Torch" ID="{92DA51D6-5EC6-41C6-BC3E-9041353FA11B}" WorkUnitID="{FC5FFE79-6C8D-46CE-AD2F-7A4D69DB7A88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Shield_Block" ID="{0D9F4941-1721-45E1-A1AC-A82CA19F1F1D}" WorkUnitID="{FC5FFE79-6C8D-46CE-AD2F-7A4D69DB7A88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stinger_Portal_Period" ID="{7D6EE120-C87C-4847-97CA-DAC45117620F}" WorkUnitID="{8724E6C1-519E-4AFC-92AF-2473CE055276}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_Jump_Surfaces_Land" ID="{9DD7574E-53E6-48CC-A90E-AD8B34CDF0DD}" WorkUnitID="{FC5FFE79-6C8D-46CE-AD2F-7A4D69DB7A88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Player_FT" ID="{FE2F0C9A-5D3C-4964-ACB9-2478588BED8D}" WorkUnitID="{FC5FFE79-6C8D-46CE-AD2F-7A4D69DB7A88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music__Epoque" ID="{1F8192A3-B789-4F0A-A0B4-F58F9C15C784}" WorkUnitID="{8724E6C1-519E-4AFC-92AF-2473CE055276}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
