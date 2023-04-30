@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{1BA7495C-EEF3-4180-813D-00E9B8B0E05F}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{1BA7495C-EEF3-4180-813D-00E9B8B0E05F}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Player" ID="{1BA7495C-EEF3-4180-813D-00E9B8B0E05F}" PersistMode="Standalone">
 			<PropertyList>
@@ -62,7 +62,6 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9F6B6C5-F302-48FC-9201-1851C6994796}"/>
 														</Reference>
 													</ReferenceList>
-													<ObjectLists/>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="SQ_Player_MoyenAge_Jump" ID="{ED149E3B-D178-4F91-8686-E1409FB8F57C}" ShortID="41008487">
 													<PropertyList>
@@ -76,7 +75,6 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9F6B6C5-F302-48FC-9201-1851C6994796}"/>
 														</Reference>
 													</ReferenceList>
-													<ObjectLists/>
 												</RandomSequenceContainer>
 												<RandomSequenceContainer Name="SQ_Player_PreHistoire_Jump" ID="{A5C1714A-A451-4195-81AA-462A9DC41BAC}" ShortID="941556995">
 													<PropertyList>
@@ -90,10 +88,8 @@
 															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9F6B6C5-F302-48FC-9201-1851C6994796}"/>
 														</Reference>
 													</ReferenceList>
-													<ObjectLists/>
 												</RandomSequenceContainer>
 											</ChildrenList>
-											<ObjectLists/>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
@@ -152,22 +148,6 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="SFX_Player_Jump_Trottoir_01" ID="{56C46E37-CDE6-48C5-8ADB-2BB8E087C131}" ShortID="423752702">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62097"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62097/sfy_hUegxKDNfIDiEqXHSCMephVFLbTQqI"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.322166666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -181,7 +161,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0866910219675263"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62097"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.699720391595034"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -191,28 +170,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Surface, Jump On SND62097" ID="{FB6AF3BE-1C7C-41AB-BF59-EB4F47F303D8}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Trottoir_02" ID="{45FB13D2-E823-42D6-90A3-77B80BF2FF3A}" ShortID="472679005">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62097"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62097/sfy_hUegxKDNfIDiEqXHSCMephVFLbTQqI"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.322166666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -226,7 +188,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.123844317096466"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62097"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.792603629417383"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.4613629417383"/>
 																			</PropertyList>
@@ -237,28 +198,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Surface, Jump On SND62097" ID="{D64F7D58-22CD-468E-A7F6-EECC16C0A8F5}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Trottoir_03" ID="{4EED0971-6CBF-4721-A341-874E784D6CF8}" ShortID="300271914">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62097"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62097/sfy_hUegxKDNfIDiEqXHSCMephVFLbTQqI"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.322166666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -272,7 +216,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.191958691499523"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62097"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="1.541861747851"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="2.15489111747851"/>
 																			</PropertyList>
@@ -283,28 +226,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Surface, Jump On SND62097" ID="{DBE26481-60DF-4C0E-8EB1-A8FDAE6C7F0A}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Trottoir_04" ID="{372D2751-9B31-4A6A-8F46-7C2A7C88ADE1}" ShortID="358301960">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62097"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62097/sfy_hUegxKDNfIDiEqXHSCMephVFLbTQqI"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.322166666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -318,7 +244,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.136228748806113"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62097"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="2.22919770773639"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="2.94749474689589"/>
 																			</PropertyList>
@@ -329,28 +254,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Surface, Jump On SND62097" ID="{E6ABF4F6-20D4-4150-AD97-D97D815C7A21}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Trottoir_05" ID="{2D99EC38-7017-4E6E-A0F3-AEC3252B111C}" ShortID="579588010">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62097"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62097/sfy_hUegxKDNfIDiEqXHSCMephVFLbTQqI"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.322166666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -364,7 +272,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0804988061127032"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62097"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="3.70294508118434"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -374,16 +281,13 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Surface, Jump On SND62097" ID="{E74B57BA-39D8-4808-BF71-5B76C8C22835}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
-															<ObjectLists/>
 														</RandomSequenceContainer>
 													</ChildrenList>
-													<ObjectLists/>
 													<Playlist>
 														<ItemRef Name="RDM_Player_Jump_Trottoir" ID="{5A328A28-4819-44D2-8E97-7E62974C741E}"/>
 													</Playlist>
@@ -416,22 +320,6 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="SFX_Player_Jump_Herbe_01" ID="{17B9724E-B3E3-4BF9-93C3-75626521DC55}" ShortID="322662369">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62077"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND62077sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.529520833333334"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -445,7 +333,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.12978629417383"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62077"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.55157091690544"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -455,28 +342,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077" ID="{1338468B-2CB4-4C37-957E-AEE53D71F696}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Herbe_02" ID="{B342A6C3-93E3-4B3A-B6D9-F8FD3489757E}" ShortID="669246137">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62077"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND62077sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.529520833333334"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -490,7 +360,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.155743553008596"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62077"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.986375835721108"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.81698728510029"/>
 																			</PropertyList>
@@ -501,28 +370,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077" ID="{63439649-53F0-4D65-9658-8855531AB908}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Herbe_03" ID="{3A08921C-6F31-4668-93B5-6715CC0298AB}" ShortID="182006910">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62077"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND62077sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.529520833333334"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -536,7 +388,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.162232867717287"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62077"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="1.92083715377268"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="2.79038449140401"/>
 																			</PropertyList>
@@ -547,28 +398,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077" ID="{C2425CCD-40B5-47CC-8393-D6FE873DED1B}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Herbe_04" ID="{4733CE8A-81E1-4EC1-8F21-DFEEAEC07891}" ShortID="151826484">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62077"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND62077sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.529520833333334"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -582,7 +416,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.168722182425979"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62077"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="2.88125573065903"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="3.7183564947469"/>
 																			</PropertyList>
@@ -593,28 +426,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077" ID="{5CBE2095-9B62-4EE7-AB53-BDD9B1CCD8B6}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Herbe_05" ID="{6497B06D-ADCC-4260-B433-FC0A00D4B1D0}" ShortID="482702546">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62077"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND62077sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="4.529520833333334"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -628,7 +444,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.103829035339064"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62077"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="3.96497128701051"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="4.49707425978988"/>
 																			</PropertyList>
@@ -639,16 +454,13 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077" ID="{DE3B843A-BC7E-4229-B58D-26378BFB7E88}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
-															<ObjectLists/>
 														</RandomSequenceContainer>
 													</ChildrenList>
-													<ObjectLists/>
 													<Playlist>
 														<ItemRef Name="RDM_Player_Jump_Herbe" ID="{FAFF0EC0-239F-43E7-8DDF-6F09ED7946CA}"/>
 													</Playlist>
@@ -681,22 +493,6 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="SFX_Player_Jump_Terre_01" ID="{F5795C2A-31B6-4105-B252-2DBFB85DB426}" ShortID="484197625">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62080"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62080/sfy_VnQQXdDoHLOpixZNEWQNGkPwApAPsn"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="8.481791666666666"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -710,7 +506,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0486062559694365"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62080"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="3.5968629417383"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="4.41101772922636"/>
 																			</PropertyList>
@@ -721,28 +516,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Jump, Land SND62080" ID="{F59A9B7D-F7CC-4BB4-A6F9-53B0C118AF06}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Terre_02" ID="{BC3ED7C9-33FD-453D-825D-BAC7D05105C9}" ShortID="386852476">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62080"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62080/sfy_VnQQXdDoHLOpixZNEWQNGkPwApAPsn"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="8.481791666666666"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -756,7 +534,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.133667203915951"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62080"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="4.43532085721108"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="5.37099128462273"/>
 																			</PropertyList>
@@ -767,28 +544,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Jump, Land SND62080" ID="{C4A21B25-C6D4-44D9-802E-4B8D7BE739A8}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Terre_03" ID="{0E6DDAA2-2AF8-472F-9489-02232416D2F2}" ShortID="425949708">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62080"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62080/sfy_VnQQXdDoHLOpixZNEWQNGkPwApAPsn"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="8.481791666666666"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -802,7 +562,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.109364075931232"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62080"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="7.74054626313276"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -812,28 +571,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Jump, Land SND62080" ID="{B7D8BFA8-9ED1-4FD0-97F7-92587088A874}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Terre_04" ID="{11F87844-0C4D-47DA-BB9D-9DB67E6B3DE3}" ShortID="770376886">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62080"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62080/sfy_VnQQXdDoHLOpixZNEWQNGkPwApAPsn"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="8.481791666666666"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -847,7 +589,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0486062559694365"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62080"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.802003223495702"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -857,28 +598,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Jump, Land SND62080" ID="{3DD30903-1C0C-46B2-AAD6-B146082FDD78}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_Terre_05" ID="{71D29A79-E093-4D77-BB06-7ACF2061A71E}" ShortID="238302312">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62080"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62080/sfy_VnQQXdDoHLOpixZNEWQNGkPwApAPsn"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="8.481791666666666"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -892,7 +616,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.230879715854823"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62080"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.802003223495702"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.53109706303725"/>
 																			</PropertyList>
@@ -903,16 +626,13 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Jump, Land SND62080" ID="{2E7B19C3-1C7F-40D1-87C9-8B7B8BC3F628}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
-															<ObjectLists/>
 														</RandomSequenceContainer>
 													</ChildrenList>
-													<ObjectLists/>
 													<Playlist>
 														<ItemRef Name="RDM_Player_Jump_Terre" ID="{3CE0B796-B882-4F37-B8B1-3224C01A9522}"/>
 													</Playlist>
@@ -945,22 +665,6 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="SFX_Player_Jump_PaveRoche_01" ID="{8490B939-8D8D-479C-AC0E-8200B4702B22}" ShortID="298715497">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62070"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62070/sfy_dROjvTsCusfJBfwUcToghUndXjVkQE"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="2.4209583333333335"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -974,7 +678,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0485579035339064"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62070"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.856700155205348"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -984,28 +687,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Jump, Land, Ground, Gravel SND62070" ID="{46E0C4AA-9182-4660-81D7-45812304B734}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_PaveRoche_02" ID="{2D36091E-D375-4102-AD01-B771798890E0}" ShortID="889149480">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62070"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62070/sfy_dROjvTsCusfJBfwUcToghUndXjVkQE"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="2.4209583333333335"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1019,7 +705,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.180357927411652"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62070"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.964221227316142"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.82438980420248"/>
 																			</PropertyList>
@@ -1030,28 +715,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Jump, Land, Ground, Gravel SND62070" ID="{79284F6E-673A-4216-B4D5-16243C82AB6B}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_Jump_PaveRoche_03" ID="{E7C4D795-17B2-4BF8-8F29-2491B6DEA711}" ShortID="157331486">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62070"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62070/sfy_dROjvTsCusfJBfwUcToghUndXjVkQE"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="2.4209583333333335"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1065,7 +733,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.117926337153773"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62070"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="1.90763192454632"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="2.37933727316141"/>
 																			</PropertyList>
@@ -1076,7 +743,6 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Jump, Land, Ground, Gravel SND62070" ID="{C564DF6E-4BC2-448C-A6FA-B1E69C64C59F}" Platform="Linked"/>
 																	</ActiveSourceList>
@@ -1088,20 +754,6 @@
 																				<Value>430</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62070"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62070/sfy_dROjvTsCusfJBfwUcToghUndXjVkQE"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="2.4209583333333335"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -1116,7 +768,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0728368553008596"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62070"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.645126432664757"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -1126,7 +777,6 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Jump, Land, Ground, Gravel SND62070" ID="{B317C222-E91E-4358-AB47-76EDEF0D55A4}" Platform="Linked"/>
 																	</ActiveSourceList>
@@ -1138,20 +788,6 @@
 																				<Value>560</Value>
 																			</ValueList>
 																		</Property>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62070"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62070/sfy_dROjvTsCusfJBfwUcToghUndXjVkQE"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="2.4209583333333335"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
 																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
@@ -1166,7 +802,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0797736986628463"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62070"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.967689648997135"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.80011085243553"/>
 																			</PropertyList>
@@ -1177,22 +812,18 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Jump, Land, Ground, Gravel SND62070" ID="{641CA49C-1F11-4223-B6AE-DB0BA5F0D096}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
-															<ObjectLists/>
 														</RandomSequenceContainer>
 													</ChildrenList>
-													<ObjectLists/>
 													<Playlist>
 														<ItemRef Name="RDM_Player_Jump_PaveRoche" ID="{7E5496EC-34EB-4246-B2D4-38BEFAC91D28}"/>
 													</Playlist>
 												</RandomSequenceContainer>
 											</ChildrenList>
-											<ObjectLists/>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
@@ -1237,7 +868,6 @@
 											</GroupingInfo>
 										</SwitchContainer>
 									</ChildrenList>
-									<ObjectLists/>
 								</ActorMixer>
 								<ActorMixer Name="Mixer_Player_FT" ID="{9E95A84A-339A-497A-8701-F71CEDD5DA01}" ShortID="298098371">
 									<ReferenceList>
@@ -1293,22 +923,6 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="SFX_Player_FT_Trottoir_01" ID="{377FAC29-2B22-4851-8235-F5891E6814CD}" ShortID="588897574">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND11513"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND11513sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="12.0"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1322,7 +936,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0171919770773639"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND11513"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.584527220630372"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.10028653295129"/>
 																			</PropertyList>
@@ -1333,28 +946,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{A005160D-DAC5-42FF-A240-9026C97E8184}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Trottoir_02" ID="{200F99ED-09C2-4711-8CE7-46719AFC5F5F}" ShortID="631144435">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND11513"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND11513sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="12.0"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1368,7 +964,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.154727793696275"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND11513"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="1.15757943096359"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.65042979942694"/>
 																			</PropertyList>
@@ -1379,28 +974,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{66039F2E-525B-46F4-AC5E-43A6D85AA739}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Trottoir_03" ID="{F11002D5-0334-4FDA-8DC6-ADB796614629}" ShortID="550076643">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND11513"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND11513sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="12.0"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1414,7 +992,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0859598853868193"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND11513"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="3.33524355300859"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="3.79942693409742"/>
 																			</PropertyList>
@@ -1425,28 +1002,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{2E861D52-D309-47D2-A997-9D906CFD20B7}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Trottoir_04" ID="{E5B3A839-083A-4FD8-8712-ED4C5AB318AA}" ShortID="75543827">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND11513"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND11513sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="12.0"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1460,7 +1020,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.120343839541547"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND11513"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="7.37535816618911"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="7.87392550143268"/>
 																			</PropertyList>
@@ -1471,28 +1030,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{66930919-C561-472F-9882-CA7768EDCDD0}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Trottoir_05" ID="{FA484BF2-40BE-43AC-96F2-496F0F3DC0CE}" ShortID="73895073">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND11513"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND11513sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="12.0"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1506,7 +1048,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0687679083094554"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND11513"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="5.84527220630372"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="6.37822349570201"/>
 																			</PropertyList>
@@ -1517,16 +1058,13 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Asphalt, Male, Walk SND11513" ID="{47ADDAE4-1BFE-4319-9BD4-618FB0747C65}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
-															<ObjectLists/>
 														</RandomSequenceContainer>
 													</ChildrenList>
-													<ObjectLists/>
 													<Playlist>
 														<ItemRef Name="RDM_Player_FT_trottoire" ID="{A8FACDB8-ABEA-42AE-93FC-DBE34F2BE715}"/>
 													</Playlist>
@@ -1564,22 +1102,6 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="SFX_Player_FT_Herbe_01" ID="{8BF93AE1-141A-4E5A-A722-FA680C4914DC}" ShortID="582535421">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND1046"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND1046sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="10.026666666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.13194444444444445"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.13194444444444445"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1593,7 +1115,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.172378223495702"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND1046"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.114918815663801"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.919350525310413"/>
 																			</PropertyList>
@@ -1604,28 +1125,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Bare Foot, Slow SND1046 3" ID="{E8AC1200-7454-4219-9E43-5F954D6DE588}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Herbe_02" ID="{4E464759-BC06-40D9-AFD6-4A2A17775AFF}" ShortID="881556670">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND1046"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND1046sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="10.026666666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.13194444444444445"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.13194444444444445"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1639,7 +1143,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.172378223495702"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND1046"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.904985673352436"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.6806876790831"/>
 																			</PropertyList>
@@ -1650,28 +1153,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Bare Foot, Slow SND1046 3" ID="{28DD6889-1A1D-4D35-80D8-485B1E4330CC}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Herbe_03" ID="{173479FD-B6FD-405A-BBA8-152870ECD89C}" ShortID="299468713">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND1046"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND1046sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="10.026666666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.13194444444444445"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.13194444444444445"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1685,7 +1171,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.172378223495702"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND1046"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="1.68068767908309"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="2.54257879656161"/>
 																			</PropertyList>
@@ -1696,28 +1181,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Bare Foot, Slow SND1046 3" ID="{9292FCEA-B087-4D67-ADE5-CF953509EFD1}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Herbe_04" ID="{9EEF7A37-2112-47BB-A748-723561336AF3}" ShortID="426697390">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND1046"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND1046sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="10.026666666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.13194444444444445"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.13194444444444445"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1731,7 +1199,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.172378223495702"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND1046"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="3.27518624641834"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="4.12271251193887"/>
 																			</PropertyList>
@@ -1742,28 +1209,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Bare Foot, Slow SND1046 3" ID="{F73414ED-172A-45D9-BC58-490A9C858EB6}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Herbe_05" ID="{74AFA1CF-A60E-44B5-B03D-A5A60E1500C1}" ShortID="97408013">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND1046"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="C:\Users\is44c\AppData\Local\Temp\tmpu2kwor93\afcache\1426367345Ff4sxqvM_wkFwGSND1046sfy.sfy"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="10.026666666666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0.13194444444444445"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0.13194444444444445"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1777,7 +1227,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.172378223495702"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND1046"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="4.99896848137535"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="5.87522445081184"/>
 																			</PropertyList>
@@ -1788,16 +1237,13 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Grass, Bare Foot, Slow SND1046 3" ID="{50FBE68E-174B-443B-B8E9-BEE5856B136E}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
-															<ObjectLists/>
 														</RandomSequenceContainer>
 													</ChildrenList>
-													<ObjectLists/>
 													<Playlist>
 														<ItemRef Name="RDM_Player_FT_Herbe" ID="{C955008F-62FA-4F8B-84AA-2FBC107D20C7}"/>
 													</Playlist>
@@ -1835,22 +1281,6 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="SFX_Player_FT_PaveRoche_01" ID="{44F8AFDE-56FC-4A91-8997-589E84948732}" ShortID="149113897">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62096"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62096/sfy_HoYFZzzeZiQFTJdRdAfoGZvtKQZoUl"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="7.859104166666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1864,7 +1294,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0450379656160458"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62096"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.844441021967527"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -1874,28 +1303,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Walk SND62096" ID="{B1E2C293-8E87-48FB-A158-DBAA4EE81A69}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_PaveRoche_02" ID="{13FB1B29-5079-4869-AFA6-3E46665EEDAE}" ShortID="927827159">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62096"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62096/sfy_HoYFZzzeZiQFTJdRdAfoGZvtKQZoUl"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="7.859104166666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1909,7 +1321,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0562974570200572"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62096"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.900759312320916"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.77897880850047"/>
 																			</PropertyList>
@@ -1920,28 +1331,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Walk SND62096" ID="{52E9E48E-1EFC-4E92-A100-9229C1D8DF1A}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_PaveRoche_03" ID="{675F046D-957D-4672-9618-8E579FEC5DCD}" ShortID="476627386">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62096"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62096/sfy_HoYFZzzeZiQFTJdRdAfoGZvtKQZoUl"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="7.859104166666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -1955,7 +1349,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0450379656160456"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62096"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="1.82403760744986"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="2.73603557784145"/>
 																			</PropertyList>
@@ -1966,28 +1359,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Walk SND62096" ID="{CB677A65-DE56-4C18-88C6-547698374B3D}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_PaveRoche_04" ID="{C67C2E00-506E-488B-96FD-C0A8F5F6754C}" ShortID="309748201">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62096"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62096/sfy_HoYFZzzeZiQFTJdRdAfoGZvtKQZoUl"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="7.859104166666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2001,7 +1377,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.247708810888252"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62096"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="4.65016994985674"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="5.40453504059217"/>
 																			</PropertyList>
@@ -2012,28 +1387,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Walk SND62096" ID="{282EE810-B128-4269-B618-DEEEBFE3C95D}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_PaveRoche_05" ID="{369DE516-42CA-4FF0-907E-494337C84F58}" ShortID="216620044">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62096"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62096/sfy_HoYFZzzeZiQFTJdRdAfoGZvtKQZoUl"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="7.859104166666667"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2047,7 +1405,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0675569484240688"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62096"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="6.49672654011461"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="7.29612959646609"/>
 																			</PropertyList>
@@ -2058,16 +1415,13 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Rock, Walk SND62096" ID="{496B1B35-2188-4241-81E9-E7E13EB3F46B}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
-															<ObjectLists/>
 														</RandomSequenceContainer>
 													</ChildrenList>
-													<ObjectLists/>
 													<Playlist>
 														<ItemRef Name="RDM_Player_FT_PaveRoche" ID="{B8A7DD1F-35AD-4264-8B9B-F6464B6CD20A}"/>
 													</Playlist>
@@ -2100,22 +1454,6 @@
 															</ReferenceList>
 															<ChildrenList>
 																<Sound Name="SFX_Player_FT_Terre_01" ID="{A9315F2F-27D2-4C8E-AA86-AAE47AD556EA}" ShortID="843475017">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62078"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62078/sfy_uZKWbPASLfhsLzAlYOjsYjgxImBljJ"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="13.501708333333333"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2129,7 +1467,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0580302650429799"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62078"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="0.580302650429797"/>
 																			</PropertyList>
 																			<Language>SFX</Language>
@@ -2139,28 +1476,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Walk SND62078" ID="{BC78D8B9-A364-40AB-9D36-C629E7A8C76F}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Terre_02" ID="{D85348A2-FDE2-4F6A-A9FC-702B04BDE7CB}" ShortID="135183414">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62078"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62078/sfy_uZKWbPASLfhsLzAlYOjsYjgxImBljJ"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="13.501708333333333"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2174,7 +1494,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.135403951766953"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62078"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="0.594857985220227"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.12191845749761"/>
 																			</PropertyList>
@@ -2185,28 +1504,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Walk SND62078" ID="{E445FDD4-F856-451A-862A-B2752F28C983}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Terre_03" ID="{51312E71-3651-4451-AA60-D3ADF94F8BA6}" ShortID="1036524919">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62078"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62078/sfy_uZKWbPASLfhsLzAlYOjsYjgxImBljJ"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="13.501708333333333"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2220,7 +1522,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.0967171084049665"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62078"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="1.17606155133377"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="1.76025137297039"/>
 																			</PropertyList>
@@ -2231,28 +1532,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Walk SND62078" ID="{AA051517-08D2-45BD-89BD-330507A38709}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Terre_04" ID="{7E2C8261-CBD9-4FE3-9199-79E475ECF533}" ShortID="350396507">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62078"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62078/sfy_uZKWbPASLfhsLzAlYOjsYjgxImBljJ"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="13.501708333333333"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2266,7 +1550,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.154747373447947"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62078"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="4.97125937201528"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="5.60959228748806"/>
 																			</PropertyList>
@@ -2277,28 +1560,11 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Walk SND62078" ID="{DD5E9E10-EA70-4BAA-A8DB-F0B0FEC1D3B6}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 																<Sound Name="SFX_Player_FT_Terre_05" ID="{BE673D40-55B5-4C5C-AA34-0D594CE6B000}" ShortID="685151153">
-																	<PropertyList>
-																		<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-																		<Property Name="Soundly:FileID" Type="string" Value="SND62078"/>
-																		<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND62078/sfy_uZKWbPASLfhsLzAlYOjsYjgxImBljJ"/>
-																		<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:HandleStopTime" Type="string" Value="13.501708333333333"/>
-																		<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-																		<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-																		<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-																		<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-																		<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-																		<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav"/>
-																		<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-																		<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-																		<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-																	</PropertyList>
 																	<ReferenceList>
 																		<Reference Name="Conversion">
 																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2312,7 +1578,6 @@
 																			<PropertyList>
 																				<Property Name="FadeOutDuration" Type="Real64" Value="0.11606053008596"/>
 																				<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																				<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND62078"/>
 																				<Property Name="TrimBegin" Type="Real64" Value="7.73736867239733"/>
 																				<Property Name="TrimEnd" Type="Real64" Value="8.51110553963706"/>
 																			</PropertyList>
@@ -2323,22 +1588,18 @@
 																			</MediaIDList>
 																		</AudioFileSource>
 																	</ChildrenList>
-																	<ObjectLists/>
 																	<ActiveSourceList>
 																		<ActiveSource Name="Footsteps, Human, Dirty Ground, Walk SND62078" ID="{7BA48D81-F6F3-411F-93E7-DB05BDB2D9F7}" Platform="Linked"/>
 																	</ActiveSourceList>
 																</Sound>
 															</ChildrenList>
-															<ObjectLists/>
 														</RandomSequenceContainer>
 													</ChildrenList>
-													<ObjectLists/>
 													<Playlist>
 														<ItemRef Name="RDM_Player_FT_Terre" ID="{0CDAD120-7773-4028-86BD-B875E7C9C838}"/>
 													</Playlist>
 												</RandomSequenceContainer>
 											</ChildrenList>
-											<ObjectLists/>
 											<GroupingInfo>
 												<GroupingBehaviorList>
 													<GroupingBehavior>
@@ -2383,10 +1644,8 @@
 											</GroupingInfo>
 										</SwitchContainer>
 									</ChildrenList>
-									<ObjectLists/>
 								</ActorMixer>
 							</ChildrenList>
-							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="Mixer_Player_Torch" ID="{DA1FDDBF-7BAB-460E-843A-476677973CFD}" ShortID="385601353">
 							<ReferenceList>
@@ -2428,20 +1687,6 @@
 																<Value>710</Value>
 															</ValueList>
 														</Property>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND60961"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND60961/sfy_ZfYfdxOGFXfzgSYWMgkxHGQParPzUG"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="15.272885416666666"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2456,7 +1701,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.700190066857688"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND60961"/>
 																<Property Name="TrimBegin" Type="Real64" Value="1.46602295248328"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.82263079035339"/>
 															</PropertyList>
@@ -2467,7 +1711,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961" ID="{436289D8-52B5-4509-90A7-0E022E26959F}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -2479,20 +1722,6 @@
 																<Value>660</Value>
 															</ValueList>
 														</Property>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND60961"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND60961/sfy_ZfYfdxOGFXfzgSYWMgkxHGQParPzUG"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="15.272885416666666"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2507,7 +1736,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.700190066857688"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND60961"/>
 																<Property Name="TrimBegin" Type="Real64" Value="1.46602295248328"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.82263079035339"/>
 															</PropertyList>
@@ -2518,7 +1746,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961" ID="{D7447BAD-F1CB-4CC2-A99D-B9628C9FDAA3}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -2530,20 +1757,6 @@
 																<Value>280</Value>
 															</ValueList>
 														</Property>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND60961"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND60961/sfy_ZfYfdxOGFXfzgSYWMgkxHGQParPzUG"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="15.272885416666666"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2558,7 +1771,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.700190066857688"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND60961"/>
 																<Property Name="TrimBegin" Type="Real64" Value="1.46602295248328"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.82263079035339"/>
 															</PropertyList>
@@ -2569,7 +1781,6 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961" ID="{FB604B1A-701A-4239-B499-DA821166149C}" Platform="Linked"/>
 													</ActiveSourceList>
@@ -2581,20 +1792,6 @@
 																<Value>760</Value>
 															</ValueList>
 														</Property>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND60961"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND60961/sfy_ZfYfdxOGFXfzgSYWMgkxHGQParPzUG"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="15.272885416666666"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
 													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
@@ -2609,7 +1806,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.700190066857688"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND60961"/>
 																<Property Name="TrimBegin" Type="Real64" Value="1.46602295248328"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.82263079035339"/>
 															</PropertyList>
@@ -2620,22 +1816,18 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961" ID="{51511E33-654E-40C6-B1D2-72E8E034803F}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
-									<ObjectLists/>
 									<Playlist>
 										<ItemRef Name="RDM_Player_Torch" ID="{24B0831B-42B0-45BE-BAB2-F5B3B408B407}"/>
 									</Playlist>
 								</RandomSequenceContainer>
 							</ChildrenList>
-							<ObjectLists/>
 						</ActorMixer>
 						<ActorMixer Name="Mixer_Player_Shield_Block" ID="{51A340BE-A72E-4DF0-ACCB-AF38D15EB0DB}" ShortID="681099475">
 							<ReferenceList>
@@ -2675,22 +1867,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="SFX_Player_Shield_Block_01" ID="{4ECBB92F-C9F2-4DD0-8E0B-211E1ADB794C}" ShortID="97504851">
-													<PropertyList>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND6392"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND6392/sfy_ahsFdEFCewKdDohZJVKVirSMahRRQx"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="7.98746875"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2704,7 +1880,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.319956247019552"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND6392"/>
 																<Property Name="TrimEnd" Type="Real64" Value="0.834161227348591"/>
 															</PropertyList>
 															<Language>SFX</Language>
@@ -2714,28 +1889,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Bullets, Impact, Metal, Light SND6392" ID="{DDE87616-A4E3-4DA8-8989-85206B1691BD}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Shield_Block_02" ID="{7CD94ABB-A38F-431A-8B96-DC4583DA9B85}" ShortID="626601897">
-													<PropertyList>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND6392"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND6392/sfy_ahsFdEFCewKdDohZJVKVirSMahRRQx"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="7.98746875"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2749,7 +1907,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.0457080352885075"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND6392"/>
 																<Property Name="TrimBegin" Type="Real64" Value="0.857025661659514"/>
 																<Property Name="TrimEnd" Type="Real64" Value="1.71404090665236"/>
 															</PropertyList>
@@ -2760,28 +1917,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Bullets, Impact, Metal, Light SND6392" ID="{A51A6C30-3CA1-431A-9F86-E72EA46B7A16}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Shield_Block_03" ID="{E43891C0-4D25-45D7-AEEB-05134DD47956}" ShortID="984095644">
-													<PropertyList>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND6392"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND6392/sfy_ahsFdEFCewKdDohZJVKVirSMahRRQx"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="7.98746875"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2795,7 +1935,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.0457080352885071"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND6392"/>
 																<Property Name="TrimBegin" Type="Real64" Value="1.88545645565093"/>
 																<Property Name="TrimEnd" Type="Real64" Value="2.90244982415355"/>
 															</PropertyList>
@@ -2806,28 +1945,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Bullets, Impact, Metal, Light SND6392" ID="{20D8843A-7F36-4F4D-9AB0-97059EA26E8E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Shield_Block_04" ID="{75321700-7FD7-4C4C-81E7-95D220D579AA}" ShortID="699256532">
-													<PropertyList>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND6392"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND6392/sfy_ahsFdEFCewKdDohZJVKVirSMahRRQx"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="7.98746875"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2841,7 +1963,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.137124105865522"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND6392"/>
 																<Property Name="TrimBegin" Type="Real64" Value="3.15385443490701"/>
 																<Property Name="TrimEnd" Type="Real64" Value="4.02229668872199"/>
 															</PropertyList>
@@ -2852,28 +1973,11 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Bullets, Impact, Metal, Light SND6392" ID="{B854395C-4A75-4170-97A0-9B037E4EAB81}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="SFX_Player_Shield_Block_05" ID="{39BCDDC5-DD34-4552-81D8-1CAF97A17BA5}" ShortID="272517779">
-													<PropertyList>
-														<Property Name="Soundly:ActiveChannels" Type="string" Value="[]"/>
-														<Property Name="Soundly:FileID" Type="string" Value="SND6392"/>
-														<Property Name="Soundly:FileName" Type="string" Value="https://2-dot-soundly-server.appspot.com/?Type=GetFile&amp;SessionID=1682735686Fr81ejJVfFYrYKc8Klr&amp;File=soundlyeu/1426367345Ff4sxqvM_wkFwG/SND6392/sfy_ahsFdEFCewKdDohZJVKVirSMahRRQx"/>
-														<Property Name="Soundly:HandleStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:HandleStopTime" Type="string" Value="7.98746875"/>
-														<Property Name="Soundly:LibraryID" Type="string" Value="1426367345Ff4sxqvM_wkFwG"/>
-														<Property Name="Soundly:LibraryLocation" Type="string" Value="Cloud"/>
-														<Property Name="Soundly:PlaybackSpeed" Type="string" Value="1.0"/>
-														<Property Name="Soundly:ProcessList" Type="string" Value="[]"/>
-														<Property Name="Soundly:RenderedFileBitRate" Type="string" Value="3"/>
-														<Property Name="Soundly:RenderedFilePath" Type="string" Value="C:\Users\is44c\Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav"/>
-														<Property Name="Soundly:RenderedFileSampleRate" Type="string" Value="48000"/>
-														<Property Name="Soundly:SelectionStartTime" Type="string" Value="0"/>
-														<Property Name="Soundly:SelectionStopTime" Type="string" Value="0"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EB34A546-5DA0-4BBD-BB9D-319B97B94E3E}"/>
@@ -2887,7 +1991,6 @@
 															<PropertyList>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.137124105865522"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="Soundly:FileIDForAudioSource" Type="string" Value="SND6392"/>
 																<Property Name="TrimBegin" Type="Real64" Value="5.15358097877921"/>
 																<Property Name="TrimEnd" Type="Real64" Value="6.17057434728183"/>
 															</PropertyList>
@@ -2898,25 +2001,20 @@
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
-													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="Bullets, Impact, Metal, Light SND6392" ID="{15E45F77-8B3A-49BC-BF3D-B4584E458B26}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
-									<ObjectLists/>
 									<Playlist>
 										<ItemRef Name="RDM_Player_Shield_Block" ID="{44490F60-D9D1-4E65-B367-5E880130269A}"/>
 									</Playlist>
 								</RandomSequenceContainer>
 							</ChildrenList>
-							<ObjectLists/>
 						</ActorMixer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

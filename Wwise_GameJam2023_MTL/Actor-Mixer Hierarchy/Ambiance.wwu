@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{D0672BEE-77F0-4532-8661-55E64BAA50F3}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{D0672BEE-77F0-4532-8661-55E64BAA50F3}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Ambiance" ID="{D0672BEE-77F0-4532-8661-55E64BAA50F3}" PersistMode="Standalone">
 			<PropertyList>
@@ -16,7 +16,6 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B9F6B6C5-F302-48FC-9201-1851C6994796}"/>
 						</Reference>
 					</ReferenceList>
-					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

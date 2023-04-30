@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{8609367A-8232-9410-3A19-5FEB9F66F319}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{539C4A8C-FBA6-48E2-8312-FDF03F7DA249}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{B31ECB74-B14B-44A5-8E36-96AC1AF32E24}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="1069431850" Name="Player" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Player" GUID="{A21D0456-D605-4B66-9FF9-8A3FB911A3B1}"/>
+				<Bus Id="2940432316" Name="Stingers" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Music\Stingers" GUID="{7B73423C-5D68-4C0E-8537-9752EA4ED1A8}"/>
+				<Bus Id="2981377429" Name="Ambiance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Ambiance" GUID="{C47C3E1C-6B84-4804-9853-8C3F1AF0EF40}"/>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Id="3991942870" Name="Music" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Music" GUID="{C6994654-D0D5-45F9-9C54-34D812572D54}"/>
+				<Bus Id="4108836435" Name="Music_Periode" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Music\Music_Periode" GUID="{E515A2D4-43D4-4F4D-8866-A603F3457285}"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="816778941" Name="TimePeriod" ObjectPath="\States\Default Work Unit\TimePeriod" GUID="{2185C9E3-C758-43B1-A832-28FC543A9933}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\TimePeriod\None" GUID="{D868B405-3A5C-4374-9438-B27F4FA18042}"/>
+						<State Id="1819255492" Name="Moyenage" ObjectPath="\States\Default Work Unit\TimePeriod\Moyenage" GUID="{217F4DDB-F58E-4F25-8231-7AAFF2E5BF00}"/>
+						<State Id="2518350331" Name="Prehistoire" ObjectPath="\States\Default Work Unit\TimePeriod\Prehistoire" GUID="{DB98F8EE-1615-4CA1-AF53-23B1984709BF}"/>
+						<State Id="3327218997" Name="Moderne" ObjectPath="\States\Default Work Unit\TimePeriod\Moderne" GUID="{2FAB0793-C51D-439F-923C-09E194548095}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="81718927" Name="SW_Player_Jump_Surfaces" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces" GUID="{4BBF7F8E-E054-455D-885B-7FBDEF403077}">
+					<Switches>
+						<Switch Id="508852877" Name="Terre" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Terre" GUID="{8A255B8A-0D89-42B3-8778-6C2BF180CAB2}"/>
+						<Switch Id="2495190089" Name="Herbe" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Herbe" GUID="{5C7D8371-0957-4387-8643-FFDD9E1D977F}"/>
+						<Switch Id="3139576136" Name="Trottoir" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Trottoir" GUID="{3707BBC2-4834-4D45-A2A8-F8D8490AFB77}"/>
+						<Switch Id="3343757356" Name="PaveRoche" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\PaveRoche" GUID="{6AD61F31-1908-4DE6-84CF-83886D937AA2}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1052610541" Name="SW_Player_FT_Surfaces" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces" GUID="{48B93E73-97D2-41C3-A046-B49FBF5A809A}">
+					<Switches>
+						<Switch Id="508852877" Name="Terre" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Terre" GUID="{9428A7DD-95AD-4CEF-AF68-56AC7C3C396E}"/>
+						<Switch Id="2495190089" Name="Herbe" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Herbe" GUID="{0E6C3B27-0AC9-4916-B685-EE202F068AB9}"/>
+						<Switch Id="3139576136" Name="Trottoir" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Trottoir" GUID="{EAD18208-65A8-4113-8F9A-C046A143A34D}"/>
+						<Switch Id="3343757356" Name="PaveRoche" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\PaveRoche" GUID="{1D43C7A6-B39A-4091-AC01-A8D01E9727C8}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{3D01A099-A3C5-3171-54F9-58DB1E43A266}</FileHash>
+</SoundBanksInfo>

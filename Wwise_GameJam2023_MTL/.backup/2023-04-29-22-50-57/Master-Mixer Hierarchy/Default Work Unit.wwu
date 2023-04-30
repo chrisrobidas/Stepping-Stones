@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B9F6B6C5-F302-48FC-9201-1851C6994796}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{B9F6B6C5-F302-48FC-9201-1851C6994796}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{B31ECB74-B14B-44A5-8E36-96AC1AF32E24}" WorkUnitID="{C806BA7B-0515-4C6E-91CA-AEC1491761C3}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Ambiance" ID="{C47C3E1C-6B84-4804-9853-8C3F1AF0EF40}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{B31ECB74-B14B-44A5-8E36-96AC1AF32E24}" WorkUnitID="{C806BA7B-0515-4C6E-91CA-AEC1491761C3}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Player" ID="{A21D0456-D605-4B66-9FF9-8A3FB911A3B1}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{B31ECB74-B14B-44A5-8E36-96AC1AF32E24}" WorkUnitID="{C806BA7B-0515-4C6E-91CA-AEC1491761C3}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
+				<Bus Name="Music" ID="{C6994654-D0D5-45F9-9C54-34D812572D54}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{B31ECB74-B14B-44A5-8E36-96AC1AF32E24}" WorkUnitID="{C806BA7B-0515-4C6E-91CA-AEC1491761C3}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music_Periode" ID="{E515A2D4-43D4-4F4D-8866-A603F3457285}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Stingers" ID="{7B73423C-5D68-4C0E-8537-9752EA4ED1A8}">
+							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music_Periode" ID="{E515A2D4-43D4-4F4D-8866-A603F3457285}"/>
+									<DuckingParam>
+										<Volume>-7</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLog2</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

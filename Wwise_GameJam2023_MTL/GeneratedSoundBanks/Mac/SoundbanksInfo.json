@@ -1,0 +1,977 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "145",
+  "RootPaths": {
+   "ProjectRoot": "../..",
+   "SourceFilesRoot": "../../.cache/Mac",
+   "SoundBanksRoot": ".",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "."
+  },
+  "DialogueEvents": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{8609367A-8232-9410-3A19-5FEB9F66F319}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{539C4A8C-FBA6-48E2-8312-FDF03F7DA249}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{B31ECB74-B14B-44A5-8E36-96AC1AF32E24}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "1069431850",
+      "Name": "Player",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Player",
+      "GUID": "{A21D0456-D605-4B66-9FF9-8A3FB911A3B1}"
+     },
+     {
+      "Id": "2940432316",
+      "Name": "Stingers",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music\\Stingers",
+      "GUID": "{7B73423C-5D68-4C0E-8537-9752EA4ED1A8}"
+     },
+     {
+      "Id": "2981377429",
+      "Name": "Ambiance",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Ambiance",
+      "GUID": "{C47C3E1C-6B84-4804-9853-8C3F1AF0EF40}"
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music",
+      "GUID": "{C6994654-D0D5-45F9-9C54-34D812572D54}"
+     },
+     {
+      "Id": "4108836435",
+      "Name": "Music_Periode",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Music\\Music_Periode",
+      "GUID": "{E515A2D4-43D4-4F4D-8866-A603F3457285}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "816778941",
+      "Name": "TimePeriod",
+      "ObjectPath": "\\States\\Default Work Unit\\TimePeriod",
+      "GUID": "{2185C9E3-C758-43B1-A832-28FC543A9933}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\TimePeriod\\None",
+        "GUID": "{D868B405-3A5C-4374-9438-B27F4FA18042}"
+       },
+       {
+        "Id": "1819255492",
+        "Name": "Moyenage",
+        "ObjectPath": "\\States\\Default Work Unit\\TimePeriod\\Moyenage",
+        "GUID": "{217F4DDB-F58E-4F25-8231-7AAFF2E5BF00}"
+       },
+       {
+        "Id": "2518350331",
+        "Name": "Prehistoire",
+        "ObjectPath": "\\States\\Default Work Unit\\TimePeriod\\Prehistoire",
+        "GUID": "{DB98F8EE-1615-4CA1-AF53-23B1984709BF}"
+       },
+       {
+        "Id": "3327218997",
+        "Name": "Moderne",
+        "ObjectPath": "\\States\\Default Work Unit\\TimePeriod\\Moderne",
+        "GUID": "{2FAB0793-C51D-439F-923C-09E194548095}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "81718927",
+      "Name": "SW_Player_Jump_Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces",
+      "GUID": "{4BBF7F8E-E054-455D-885B-7FBDEF403077}",
+      "Switches": [
+       {
+        "Id": "508852877",
+        "Name": "Terre",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces\\Terre",
+        "GUID": "{8A255B8A-0D89-42B3-8778-6C2BF180CAB2}"
+       },
+       {
+        "Id": "2495190089",
+        "Name": "Herbe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces\\Herbe",
+        "GUID": "{5C7D8371-0957-4387-8643-FFDD9E1D977F}"
+       },
+       {
+        "Id": "3139576136",
+        "Name": "Trottoir",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces\\Trottoir",
+        "GUID": "{3707BBC2-4834-4D45-A2A8-F8D8490AFB77}"
+       },
+       {
+        "Id": "3343757356",
+        "Name": "PaveRoche",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces\\PaveRoche",
+        "GUID": "{6AD61F31-1908-4DE6-84CF-83886D937AA2}"
+       }
+      ]
+     },
+     {
+      "Id": "1052610541",
+      "Name": "SW_Player_FT_Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces",
+      "GUID": "{48B93E73-97D2-41C3-A046-B49FBF5A809A}",
+      "Switches": [
+       {
+        "Id": "508852877",
+        "Name": "Terre",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces\\Terre",
+        "GUID": "{9428A7DD-95AD-4CEF-AF68-56AC7C3C396E}"
+       },
+       {
+        "Id": "2495190089",
+        "Name": "Herbe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces\\Herbe",
+        "GUID": "{0E6C3B27-0AC9-4916-B685-EE202F068AB9}"
+       },
+       {
+        "Id": "3139576136",
+        "Name": "Trottoir",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces\\Trottoir",
+        "GUID": "{EAD18208-65A8-4113-8F9A-C046A143A34D}"
+       },
+       {
+        "Id": "3343757356",
+        "Name": "PaveRoche",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces\\PaveRoche",
+        "GUID": "{1D43C7A6-B39A-4091-AC01-A8D01E9727C8}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "4163737830",
+    "Type": "User",
+    "GUID": "{3C742C9E-43C3-4FDC-8B4D-E25E8EDFB0D4}",
+    "Language": "SFX",
+    "Hash": "{84C3EA1E-3BCF-3CC7-37B0-55CA515EE959}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBankGameJam",
+    "ShortName": "SoundBankGameJam",
+    "Path": "SoundBankGameJam.bnk",
+    "Media": [
+     {
+      "Id": "36721892",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MoyenAge_Loop_95bpm_L12m_P4b.wav",
+      "CachePath": "SFX/MoyenAge_Loop_95bpm_L12m_P4b_D79FB2B7.wem"
+     },
+     {
+      "Id": "56279338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Jump, Land 01 SND62077_11B9C4CD.wem"
+     },
+     {
+      "Id": "61363525",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Bullets, Impact, Metal, Light SND6392.wav",
+      "CachePath": "SFX/Soundly Audio/Bullets, Impact, Metal, Light SND6392_E1AD509E.wem"
+     },
+     {
+      "Id": "117683304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Jump, Land SND62080_FDE0760C.wem"
+     },
+     {
+      "Id": "120239249",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Jump, Land SND62080_AE2C70BF.wem"
+     },
+     {
+      "Id": "152956660",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Bullets, Impact, Metal, Light SND6392.wav",
+      "CachePath": "SFX/Soundly Audio/Bullets, Impact, Metal, Light SND6392_93B7FBED.wem"
+     },
+     {
+      "Id": "178967168",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_FC8FF0BB.wem"
+     },
+     {
+      "Id": "182868088",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Bullets, Impact, Metal, Light SND6392.wav",
+      "CachePath": "SFX/Soundly Audio/Bullets, Impact, Metal, Light SND6392_E06EF51D.wem"
+     },
+     {
+      "Id": "217606597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Walk SND62096.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Walk SND62096_FD8983BC.wem"
+     },
+     {
+      "Id": "223320999",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Walk SND62078.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Walk SND62078_9BB4F171.wem"
+     },
+     {
+      "Id": "235702066",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_28E95AF8.wem"
+     },
+     {
+      "Id": "249284925",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Moderne_Loop_95bpm_L12m_P4b.wav",
+      "CachePath": "SFX/Moderne_Loop_95bpm_L12m_P4b_D79FB2B7.wem"
+     },
+     {
+      "Id": "291007145",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Asphalt, Male, Walk SND11513.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Asphalt, Male, Walk SND11513_C24E6AFC.wem"
+     },
+     {
+      "Id": "292646522",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PreHistoire_Loop_95bpm_L12m_P4b.wav",
+      "CachePath": "SFX/PreHistoire_Loop_95bpm_L12m_P4b_D79FB2B7.wem"
+     },
+     {
+      "Id": "313583393",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stinger_Portal_Period.wav",
+      "CachePath": "SFX/Stinger_Portal_Period_D79FB2B7.wem"
+     },
+     {
+      "Id": "322813587",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Jump, Land SND62080_B52DD7C7.wem"
+     },
+     {
+      "Id": "326645023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Jump, Land, Ground, Gravel SND62070_6D5E831E.wem"
+     },
+     {
+      "Id": "400192822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Jump, Land SND62080_41053B37.wem"
+     },
+     {
+      "Id": "401220887",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_1E3E59A2.wem"
+     },
+     {
+      "Id": "448187577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961.wav",
+      "CachePath": "SFX/Soundly Audio/Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961_1DD73615.wem"
+     },
+     {
+      "Id": "482868954",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Surface, Jump On SND62097.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Surface, Jump On SND62097_54D2CDDA.wem"
+     },
+     {
+      "Id": "533890618",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Jump, Land SND62080_12504A64.wem"
+     },
+     {
+      "Id": "557910328",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Walk SND62078.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Walk SND62078_B0471463.wem"
+     },
+     {
+      "Id": "559171842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Surface, Jump On SND62097.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Surface, Jump On SND62097_CB74DCE5.wem"
+     },
+     {
+      "Id": "559903479",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Asphalt, Male, Walk SND11513.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Asphalt, Male, Walk SND11513_D69036E0.wem"
+     },
+     {
+      "Id": "580992338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Jump, Land 01 SND62077_B591D624.wem"
+     },
+     {
+      "Id": "597971374",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Jump, Land, Ground, Gravel SND62070_8D2CF0EF.wem"
+     },
+     {
+      "Id": "621411069",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Bullets, Impact, Metal, Light SND6392.wav",
+      "CachePath": "SFX/Soundly Audio/Bullets, Impact, Metal, Light SND6392_39FC1AAE.wem"
+     },
+     {
+      "Id": "647158515",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Bullets, Impact, Metal, Light SND6392.wav",
+      "CachePath": "SFX/Soundly Audio/Bullets, Impact, Metal, Light SND6392_B3B29648.wem"
+     },
+     {
+      "Id": "651092857",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Asphalt, Male, Walk SND11513.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Asphalt, Male, Walk SND11513_3F59E69C.wem"
+     },
+     {
+      "Id": "663079663",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Walk SND62078.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Walk SND62078_5724090F.wem"
+     },
+     {
+      "Id": "667000604",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Jump, Land, Ground, Gravel SND62070_26A6DF40.wem"
+     },
+     {
+      "Id": "680316540",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Surface, Jump On SND62097.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Surface, Jump On SND62097_7C2B6B9E.wem"
+     },
+     {
+      "Id": "692551543",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_81677A0B.wem"
+     },
+     {
+      "Id": "693883534",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Surface, Jump On SND62097.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Surface, Jump On SND62097_E74E11C0.wem"
+     },
+     {
+      "Id": "726227790",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Jump, Land 01 SND62077_E78E2C9E.wem"
+     },
+     {
+      "Id": "735102470",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Surface, Jump On SND62097.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Surface, Jump On SND62097_99422746.wem"
+     },
+     {
+      "Id": "785347739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Jump, Land 01 SND62077_67A1A082.wem"
+     },
+     {
+      "Id": "797607508",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Walk SND62078.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Walk SND62078_D27F33DD.wem"
+     },
+     {
+      "Id": "855867508",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Jump, Land, Ground, Gravel SND62070_F6D2E88D.wem"
+     },
+     {
+      "Id": "883709967",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_248AA2EC.wem"
+     },
+     {
+      "Id": "915307309",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Asphalt, Male, Walk SND11513.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Asphalt, Male, Walk SND11513_83B8F52F.wem"
+     },
+     {
+      "Id": "929528488",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Walk SND62096.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Walk SND62096_787C45CA.wem"
+     },
+     {
+      "Id": "934637379",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Walk SND62096.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Walk SND62096_12A3CCD3.wem"
+     },
+     {
+      "Id": "945068288",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Grass, Jump, Land 01 SND62077_DA457DEE.wem"
+     },
+     {
+      "Id": "986271614",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Jump, Land, Ground, Gravel SND62070_D562F117.wem"
+     },
+     {
+      "Id": "1018502924",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "PreHistoire_Intro_95bpm_L4m_P0b.wav",
+      "CachePath": "SFX/PreHistoire_Intro_95bpm_L4m_P0b_D79FB2B7.wem"
+     },
+     {
+      "Id": "1019035245",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Walk SND62096.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Walk SND62096_6DE646F8.wem"
+     },
+     {
+      "Id": "1025363167",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Asphalt, Male, Walk SND11513.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Asphalt, Male, Walk SND11513_4F8AB0C4.wem"
+     },
+     {
+      "Id": "1058919184",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Rock, Walk SND62096.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Rock, Walk SND62096_4A5CAAF7.wem"
+     },
+     {
+      "Id": "1073684059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Soundly Audio\\Footsteps, Human, Dirty Ground, Walk SND62078.wav",
+      "CachePath": "SFX/Soundly Audio/Footsteps, Human, Dirty Ground, Walk SND62078_94F643C0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4167591692",
+      "Name": "Play_Music__Epoque",
+      "ObjectPath": "\\Events\\Music\\Play_Music__Epoque",
+      "GUID": "{1F8192A3-B789-4F0A-A0B4-F58F9C15C784}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "36721892"
+       },
+       {
+        "Id": "249284925"
+       },
+       {
+        "Id": "292646522"
+       },
+       {
+        "Id": "313583393"
+       },
+       {
+        "Id": "1018502924"
+       }
+      ]
+     },
+     {
+      "Id": "4078825894",
+      "Name": "Play_Player_FT",
+      "ObjectPath": "\\Events\\Player\\Play_Player_FT",
+      "GUID": "{FE2F0C9A-5D3C-4964-ACB9-2478588BED8D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4641834",
+      "DurationMax": "0.911998",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1052610541",
+         "Id": "3139576136",
+         "GUID": "{EAD18208-65A8-4113-8F9A-C046A143A34D}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "291007145"
+         },
+         {
+          "Id": "559903479"
+         },
+         {
+          "Id": "651092857"
+         },
+         {
+          "Id": "915307309"
+         },
+         {
+          "Id": "1025363167"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1052610541",
+         "Id": "2495190089",
+         "GUID": "{0E6C3B27-0AC9-4916-B685-EE202F068AB9}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "178967168"
+         },
+         {
+          "Id": "235702066"
+         },
+         {
+          "Id": "401220887"
+         },
+         {
+          "Id": "692551543"
+         },
+         {
+          "Id": "883709967"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1052610541",
+         "Id": "3343757356",
+         "GUID": "{1D43C7A6-B39A-4091-AC01-A8D01E9727C8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "217606597"
+         },
+         {
+          "Id": "929528488"
+         },
+         {
+          "Id": "934637379"
+         },
+         {
+          "Id": "1019035245"
+         },
+         {
+          "Id": "1058919184"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1052610541",
+         "Id": "508852877",
+         "GUID": "{9428A7DD-95AD-4CEF-AF68-56AC7C3C396E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "223320999"
+         },
+         {
+          "Id": "557910328"
+         },
+         {
+          "Id": "663079663"
+         },
+         {
+          "Id": "797607508"
+         },
+         {
+          "Id": "1073684059"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "430510777",
+      "Name": "Play_Player_Jump_Surfaces_Land",
+      "ObjectPath": "\\Events\\Player\\Play_Player_Jump_Surfaces_Land",
+      "GUID": "{9DD7574E-53E6-48CC-A90E-AD8B34CDF0DD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.47170535",
+      "DurationMax": "0.93567044",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "81718927",
+         "Id": "3343757356",
+         "GUID": "{6AD61F31-1908-4DE6-84CF-83886D937AA2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "326645023"
+         },
+         {
+          "Id": "597971374"
+         },
+         {
+          "Id": "667000604"
+         },
+         {
+          "Id": "855867508"
+         },
+         {
+          "Id": "986271614"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "81718927",
+         "Id": "2495190089",
+         "GUID": "{5C7D8371-0957-4387-8643-FFDD9E1D977F}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "56279338"
+         },
+         {
+          "Id": "580992338"
+         },
+         {
+          "Id": "726227790"
+         },
+         {
+          "Id": "785347739"
+         },
+         {
+          "Id": "945068288"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "81718927",
+         "Id": "508852877",
+         "GUID": "{8A255B8A-0D89-42B3-8778-6C2BF180CAB2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "117683304"
+         },
+         {
+          "Id": "120239249"
+         },
+         {
+          "Id": "322813587"
+         },
+         {
+          "Id": "400192822"
+         },
+         {
+          "Id": "533890618"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "81718927",
+         "Id": "3139576136",
+         "GUID": "{3707BBC2-4834-4D45-A2A8-F8D8490AFB77}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "482868954"
+         },
+         {
+          "Id": "559171842"
+         },
+         {
+          "Id": "680316540"
+         },
+         {
+          "Id": "693883534"
+         },
+         {
+          "Id": "735102470"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "4136083405",
+      "Name": "Play_Player_Shield_Block",
+      "ObjectPath": "\\Events\\Player\\Play_Player_Shield_Block",
+      "GUID": "{0D9F4941-1721-45E1-A1AC-A82CA19F1F1D}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8341612",
+      "DurationMax": "1.0169934",
+      "MediaRefs": [
+       {
+        "Id": "61363525"
+       },
+       {
+        "Id": "152956660"
+       },
+       {
+        "Id": "182868088"
+       },
+       {
+        "Id": "621411069"
+       },
+       {
+        "Id": "647158515"
+       }
+      ]
+     },
+     {
+      "Id": "618472270",
+      "Name": "Play_Player_Torch",
+      "ObjectPath": "\\Events\\Player\\Play_Player_Torch",
+      "GUID": "{92DA51D6-5EC6-41C6-BC3E-9041353FA11B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8745849",
+      "DurationMax": "1.1540216",
+      "MediaRefs": [
+       {
+        "Id": "448187577"
+       }
+      ]
+     },
+     {
+      "Id": "4114690507",
+      "Name": "Play_Stinger_Portal_Period",
+      "ObjectPath": "\\Events\\Music\\Play_Stinger_Portal_Period",
+      "GUID": "{7D6EE120-C87C-4847-97CA-DAC45117620F}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.45",
+      "DurationMax": "2.45",
+      "MediaRefs": [
+       {
+        "Id": "313583393"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "81718927",
+      "Name": "SW_Player_Jump_Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces",
+      "GUID": "{4BBF7F8E-E054-455D-885B-7FBDEF403077}",
+      "Switches": [
+       {
+        "Id": "508852877",
+        "Name": "Terre",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces\\Terre",
+        "GUID": "{8A255B8A-0D89-42B3-8778-6C2BF180CAB2}"
+       },
+       {
+        "Id": "2495190089",
+        "Name": "Herbe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces\\Herbe",
+        "GUID": "{5C7D8371-0957-4387-8643-FFDD9E1D977F}"
+       },
+       {
+        "Id": "3139576136",
+        "Name": "Trottoir",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces\\Trottoir",
+        "GUID": "{3707BBC2-4834-4D45-A2A8-F8D8490AFB77}"
+       },
+       {
+        "Id": "3343757356",
+        "Name": "PaveRoche",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_Jump_Surfaces\\PaveRoche",
+        "GUID": "{6AD61F31-1908-4DE6-84CF-83886D937AA2}"
+       }
+      ]
+     },
+     {
+      "Id": "1052610541",
+      "Name": "SW_Player_FT_Surfaces",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces",
+      "GUID": "{48B93E73-97D2-41C3-A046-B49FBF5A809A}",
+      "Switches": [
+       {
+        "Id": "508852877",
+        "Name": "Terre",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces\\Terre",
+        "GUID": "{9428A7DD-95AD-4CEF-AF68-56AC7C3C396E}"
+       },
+       {
+        "Id": "2495190089",
+        "Name": "Herbe",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces\\Herbe",
+        "GUID": "{0E6C3B27-0AC9-4916-B685-EE202F068AB9}"
+       },
+       {
+        "Id": "3139576136",
+        "Name": "Trottoir",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces\\Trottoir",
+        "GUID": "{EAD18208-65A8-4113-8F9A-C046A143A34D}"
+       },
+       {
+        "Id": "3343757356",
+        "Name": "PaveRoche",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SW_Player_FT_Surfaces\\PaveRoche",
+        "GUID": "{1D43C7A6-B39A-4091-AC01-A8D01E9727C8}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7BBB3BC7-D5A5-04C5-5D7A-C56638CBA868}"
+ }
+}
