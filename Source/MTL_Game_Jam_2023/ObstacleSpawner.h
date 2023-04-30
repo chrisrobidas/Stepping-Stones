@@ -39,9 +39,16 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AObstacleBase>> _spawnableModernProps;
 
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool _isFireUnlocked;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	bool _isShieldUnlocked;
+
 	int _currentEra = 0;
 	int _nbOfObstaclesSpawnedForEra = 0;
-	int _nbOfObstaclesUntilTransition = 2;
+	int _nbOfObstaclesUntilTransition = 6;
 
 private:
 	double _nextObstacleX;

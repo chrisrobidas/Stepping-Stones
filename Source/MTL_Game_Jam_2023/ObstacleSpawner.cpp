@@ -50,6 +50,17 @@ void AObstacleSpawner::SpawnRandomObstacle()
 {
 	if (_nbOfObstaclesSpawnedForEra >= _nbOfObstaclesUntilTransition) {
 		_currentEra = (_currentEra + 1) % 3;
+
+		if (!_isFireUnlocked && _currentEra == 1)
+		{
+			_isFireUnlocked = true;
+		}
+
+		if (!_isShieldUnlocked && _currentEra == 2)
+		{
+			_isShieldUnlocked = true;
+		}
+
 		_nbOfObstaclesSpawnedForEra = 0;
 	}
 
