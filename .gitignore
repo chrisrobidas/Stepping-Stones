@@ -78,11 +78,11 @@ DerivedDataCache/*
 ## ---------------- ##
 
 # project stuff
-MTL_Game_Jam_2023/.cache/
-MTL_Game_Jam_2023/*.prof
-MTL_Game_Jam_2023/*_MTL_Game_Jam_2023.*.validationcache
-MTL_Game_Jam_2023/*_MTL_Game_Jam_2023.*.wsettings
-MTL_Game_Jam_2023/**/*.akd
+GameJam2023_MTL/.cache/
+GameJam2023_MTL/*.prof
+GameJam2023_MTL/*_GameJam2023_MTL.*.validationcache
+GameJam2023_MTL/*_GameJam2023_MTL.*.wsettings
+GameJam2023_MTL/**/*.akd
 
 # build stuff (unsure?)
 # Assets/Wwise/Deployment/Plugins/Windows/**/*.meta
