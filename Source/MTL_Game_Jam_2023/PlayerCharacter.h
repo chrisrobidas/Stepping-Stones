@@ -30,6 +30,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = Input)
 	UInputAction* _stopJumpAction;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UCapsuleComponent* _capsule;
+
 	void MakeJump(const FInputActionValue& Value);
 	void StopJump(const FInputActionValue& Value);
 
@@ -41,9 +44,6 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private:
-	UPROPERTY(VisibleAnywhere)
-	UCapsuleComponent* _capsule;
-
 	UPROPERTY(VisibleAnywhere)
 	USkeletalMeshComponent* _playerCharacterMesh;
 
