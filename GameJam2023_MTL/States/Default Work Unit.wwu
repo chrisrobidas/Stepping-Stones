@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C7F25392-5A90-4A8F-B14C-012D6CC7419B}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{C7F25392-5A90-4A8F-B14C-012D6CC7419B}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="TimePeriod" ID="{2185C9E3-C758-43B1-A832-28FC543A9933}">
+					<ChildrenList>
+						<State Name="None" ID="{D868B405-3A5C-4374-9438-B27F4FA18042}"/>
+						<State Name="Prehistoire" ID="{DB98F8EE-1615-4CA1-AF53-23B1984709BF}"/>
+						<State Name="Moyenage" ID="{217F4DDB-F58E-4F25-8231-7AAFF2E5BF00}"/>
+						<State Name="Moderne" ID="{2FAB0793-C51D-439F-923C-09E194548095}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
