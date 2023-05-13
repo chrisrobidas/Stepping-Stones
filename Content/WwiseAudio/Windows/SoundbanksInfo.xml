@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Unreal_Projects\MTL_Game_Jam_2023\GameJam2023_MTL\</ProjectRoot>
+		<SourceFilesRoot>D:\Unreal_Projects\MTL_Game_Jam_2023\GameJam2023_MTL\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Unreal_Projects\MTL_Game_Jam_2023\Content\WwiseAudio\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Unreal_Projects\MTL_Game_Jam_2023\GameJam2023_MTL\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="617952016">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2880737896" GUID="{ABB49268-9268-1268-6868-686868686868}" Language="SFX" Hash="3638123542">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
+			<ShortName>MainBank</ShortName>
+			<Path>MainBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4167591692" Name="Play_Music__Epoque" ObjectPath="\Events\Music\Play_Music__Epoque" GUID="{1F8192A3-B789-4F0A-A0B4-F58F9C15C784}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="36721892" Language="SFX">
+							<ShortName>MoyenAge_Loop_95bpm_L12m_P4b.wav</ShortName>
+							<Path>SFX\MoyenAge_Loop_95bpm_L12m_P4b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="249284925" Language="SFX">
+							<ShortName>Moderne_Loop_95bpm_L12m_P4b.wav</ShortName>
+							<Path>SFX\Moderne_Loop_95bpm_L12m_P4b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="292646522" Language="SFX">
+							<ShortName>PreHistoire_Loop_95bpm_L12m_P4b.wav</ShortName>
+							<Path>SFX\PreHistoire_Loop_95bpm_L12m_P4b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4078825894" Name="Play_Player_FT" ObjectPath="\Events\Player\Play_Player_FT" GUID="{FE2F0C9A-5D3C-4964-ACB9-2478588BED8D}" DurationType="OneShot" DurationMin="0.464183" DurationMax="0.911998">
+					<IncludedMemoryFiles>
+						<File Id="178967168" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_FC8FF0BB.wem</Path>
+						</File>
+						<File Id="217606597" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_FD8983BC.wem</Path>
+						</File>
+						<File Id="223320999" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_9BB4F171.wem</Path>
+						</File>
+						<File Id="235702066" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_28E95AF8.wem</Path>
+						</File>
+						<File Id="291007145" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_C24E6AFC.wem</Path>
+						</File>
+						<File Id="401220887" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_1E3E59A2.wem</Path>
+						</File>
+						<File Id="557910328" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_B0471463.wem</Path>
+						</File>
+						<File Id="559903479" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_D69036E0.wem</Path>
+						</File>
+						<File Id="651092857" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_3F59E69C.wem</Path>
+						</File>
+						<File Id="663079663" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_5724090F.wem</Path>
+						</File>
+						<File Id="692551543" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_81677A0B.wem</Path>
+						</File>
+						<File Id="797607508" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_D27F33DD.wem</Path>
+						</File>
+						<File Id="883709967" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_248AA2EC.wem</Path>
+						</File>
+						<File Id="915307309" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_83B8F52F.wem</Path>
+						</File>
+						<File Id="929528488" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_787C45CA.wem</Path>
+						</File>
+						<File Id="934637379" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_12A3CCD3.wem</Path>
+						</File>
+						<File Id="1019035245" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_6DE646F8.wem</Path>
+						</File>
+						<File Id="1025363167" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_4F8AB0C4.wem</Path>
+						</File>
+						<File Id="1058919184" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_4A5CAAF7.wem</Path>
+						</File>
+						<File Id="1073684059" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_94F643C0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{0E6C3B27-0AC9-4916-B685-EE202F068AB9}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{EAD18208-65A8-4113-8F9A-C046A143A34D}">
+							<Media>
+								<File Id="291007145"/>
+								<File Id="559903479"/>
+								<File Id="651092857"/>
+								<File Id="915307309"/>
+								<File Id="1025363167"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0E6C3B27-0AC9-4916-B685-EE202F068AB9}">
+							<Media>
+								<File Id="178967168"/>
+								<File Id="235702066"/>
+								<File Id="401220887"/>
+								<File Id="692551543"/>
+								<File Id="883709967"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1D43C7A6-B39A-4091-AC01-A8D01E9727C8}">
+							<Media>
+								<File Id="217606597"/>
+								<File Id="929528488"/>
+								<File Id="934637379"/>
+								<File Id="1019035245"/>
+								<File Id="1058919184"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9428A7DD-95AD-4CEF-AF68-56AC7C3C396E}">
+							<Media>
+								<File Id="223320999"/>
+								<File Id="557910328"/>
+								<File Id="663079663"/>
+								<File Id="797607508"/>
+								<File Id="1073684059"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="430510777" Name="Play_Player_Jump_Surfaces_Land" ObjectPath="\Events\Player\Play_Player_Jump_Surfaces_Land" GUID="{9DD7574E-53E6-48CC-A90E-AD8B34CDF0DD}" DurationType="OneShot" DurationMin="0.471705" DurationMax="0.93567">
+					<IncludedMemoryFiles>
+						<File Id="56279338" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_11B9C4CD.wem</Path>
+						</File>
+						<File Id="117683304" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_FDE0760C.wem</Path>
+						</File>
+						<File Id="120239249" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_AE2C70BF.wem</Path>
+						</File>
+						<File Id="322813587" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_B52DD7C7.wem</Path>
+						</File>
+						<File Id="326645023" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_6D5E831E.wem</Path>
+						</File>
+						<File Id="400192822" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_41053B37.wem</Path>
+						</File>
+						<File Id="482868954" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_54D2CDDA.wem</Path>
+						</File>
+						<File Id="533890618" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_12504A64.wem</Path>
+						</File>
+						<File Id="559171842" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_CB74DCE5.wem</Path>
+						</File>
+						<File Id="580992338" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_B591D624.wem</Path>
+						</File>
+						<File Id="597971374" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_8D2CF0EF.wem</Path>
+						</File>
+						<File Id="667000604" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_26A6DF40.wem</Path>
+						</File>
+						<File Id="680316540" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_7C2B6B9E.wem</Path>
+						</File>
+						<File Id="693883534" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_E74E11C0.wem</Path>
+						</File>
+						<File Id="726227790" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_E78E2C9E.wem</Path>
+						</File>
+						<File Id="735102470" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_99422746.wem</Path>
+						</File>
+						<File Id="785347739" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_67A1A082.wem</Path>
+						</File>
+						<File Id="855867508" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_F6D2E88D.wem</Path>
+						</File>
+						<File Id="945068288" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_DA457DEE.wem</Path>
+						</File>
+						<File Id="986271614" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_D562F117.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{5C7D8371-0957-4387-8643-FFDD9E1D977F}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{6AD61F31-1908-4DE6-84CF-83886D937AA2}">
+							<Media>
+								<File Id="326645023"/>
+								<File Id="597971374"/>
+								<File Id="667000604"/>
+								<File Id="855867508"/>
+								<File Id="986271614"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5C7D8371-0957-4387-8643-FFDD9E1D977F}">
+							<Media>
+								<File Id="56279338"/>
+								<File Id="580992338"/>
+								<File Id="726227790"/>
+								<File Id="785347739"/>
+								<File Id="945068288"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8A255B8A-0D89-42B3-8778-6C2BF180CAB2}">
+							<Media>
+								<File Id="117683304"/>
+								<File Id="120239249"/>
+								<File Id="322813587"/>
+								<File Id="400192822"/>
+								<File Id="533890618"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3707BBC2-4834-4D45-A2A8-F8D8490AFB77}">
+							<Media>
+								<File Id="482868954"/>
+								<File Id="559171842"/>
+								<File Id="680316540"/>
+								<File Id="693883534"/>
+								<File Id="735102470"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4136083405" Name="Play_Player_Shield_Block" ObjectPath="\Events\Player\Play_Player_Shield_Block" GUID="{0D9F4941-1721-45E1-A1AC-A82CA19F1F1D}" DurationType="OneShot" DurationMin="0.834161" DurationMax="1.016993">
+					<IncludedMemoryFiles>
+						<File Id="61363525" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_E1AD509E.wem</Path>
+						</File>
+						<File Id="152956660" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_93B7FBED.wem</Path>
+						</File>
+						<File Id="182868088" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_E06EF51D.wem</Path>
+						</File>
+						<File Id="621411069" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_39FC1AAE.wem</Path>
+						</File>
+						<File Id="647158515" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_B3B29648.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="618472270" Name="Play_Player_Torch" ObjectPath="\Events\Player\Play_Player_Torch" GUID="{92DA51D6-5EC6-41C6-BC3E-9041353FA11B}" DurationType="OneShot" DurationMin="0.874585" DurationMax="1.154022">
+					<IncludedMemoryFiles>
+						<File Id="448187577" Language="SFX">
+							<ShortName>Soundly Audio\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961.wav</ShortName>
+							<Path>SFX\Soundly Audio\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961_1DD73615.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4114690507" Name="Play_Stinger_Portal_Period" ObjectPath="\Events\Music\Play_Stinger_Portal_Period" GUID="{7D6EE120-C87C-4847-97CA-DAC45117620F}" DurationType="OneShot" DurationMin="2.45" DurationMax="2.45">
+					<IncludedMemoryFiles>
+						<File Id="313583393" Language="SFX">
+							<ShortName>Stinger_Portal_Period.wav</ShortName>
+							<Path>SFX\Stinger_Portal_Period_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="81718927" Name="SW_Player_Jump_Surfaces" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces" GUID="{4BBF7F8E-E054-455D-885B-7FBDEF403077}">
+					<Switches>
+						<Switch Id="2495190089" Name="Herbe" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Herbe" GUID="{5C7D8371-0957-4387-8643-FFDD9E1D977F}"/>
+						<Switch Id="508852877" Name="Terre" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Terre" GUID="{8A255B8A-0D89-42B3-8778-6C2BF180CAB2}"/>
+						<Switch Id="3139576136" Name="Trottoir" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Trottoir" GUID="{3707BBC2-4834-4D45-A2A8-F8D8490AFB77}"/>
+						<Switch Id="3343757356" Name="PaveRoche" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\PaveRoche" GUID="{6AD61F31-1908-4DE6-84CF-83886D937AA2}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1052610541" Name="SW_Player_FT_Surfaces" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces" GUID="{48B93E73-97D2-41C3-A046-B49FBF5A809A}">
+					<Switches>
+						<Switch Id="2495190089" Name="Herbe" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Herbe" GUID="{0E6C3B27-0AC9-4916-B685-EE202F068AB9}"/>
+						<Switch Id="3343757356" Name="PaveRoche" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\PaveRoche" GUID="{1D43C7A6-B39A-4091-AC01-A8D01E9727C8}"/>
+						<Switch Id="3139576136" Name="Trottoir" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Trottoir" GUID="{EAD18208-65A8-4113-8F9A-C046A143A34D}"/>
+						<Switch Id="508852877" Name="Terre" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Terre" GUID="{9428A7DD-95AD-4CEF-AF68-56AC7C3C396E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="4163737830" GUID="{3C742C9E-43C3-4FDC-8B4D-E25E8EDFB0D4}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBankGameJam</ObjectPath>
+			<ShortName>SoundBankGameJam</ShortName>
+			<Path>SoundBankGameJam.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4167591692" Name="Play_Music__Epoque" ObjectPath="\Events\Music\Play_Music__Epoque" GUID="{1F8192A3-B789-4F0A-A0B4-F58F9C15C784}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="36721892" Language="SFX">
+							<ShortName>MoyenAge_Loop_95bpm_L12m_P4b.wav</ShortName>
+							<Path>SFX\MoyenAge_Loop_95bpm_L12m_P4b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="249284925" Language="SFX">
+							<ShortName>Moderne_Loop_95bpm_L12m_P4b.wav</ShortName>
+							<Path>SFX\Moderne_Loop_95bpm_L12m_P4b_D79FB2B7.wem</Path>
+						</File>
+						<File Id="292646522" Language="SFX">
+							<ShortName>PreHistoire_Loop_95bpm_L12m_P4b.wav</ShortName>
+							<Path>SFX\PreHistoire_Loop_95bpm_L12m_P4b_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4078825894" Name="Play_Player_FT" ObjectPath="\Events\Player\Play_Player_FT" GUID="{FE2F0C9A-5D3C-4964-ACB9-2478588BED8D}" DurationType="OneShot" DurationMin="0.464183" DurationMax="0.911998">
+					<IncludedMemoryFiles>
+						<File Id="178967168" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_FC8FF0BB.wem</Path>
+						</File>
+						<File Id="217606597" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_FD8983BC.wem</Path>
+						</File>
+						<File Id="223320999" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_9BB4F171.wem</Path>
+						</File>
+						<File Id="235702066" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_28E95AF8.wem</Path>
+						</File>
+						<File Id="291007145" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_C24E6AFC.wem</Path>
+						</File>
+						<File Id="401220887" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_1E3E59A2.wem</Path>
+						</File>
+						<File Id="557910328" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_B0471463.wem</Path>
+						</File>
+						<File Id="559903479" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_D69036E0.wem</Path>
+						</File>
+						<File Id="651092857" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_3F59E69C.wem</Path>
+						</File>
+						<File Id="663079663" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_5724090F.wem</Path>
+						</File>
+						<File Id="692551543" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_81677A0B.wem</Path>
+						</File>
+						<File Id="797607508" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_D27F33DD.wem</Path>
+						</File>
+						<File Id="883709967" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Bare Foot, Slow SND1046 3_248AA2EC.wem</Path>
+						</File>
+						<File Id="915307309" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_83B8F52F.wem</Path>
+						</File>
+						<File Id="929528488" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_787C45CA.wem</Path>
+						</File>
+						<File Id="934637379" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_12A3CCD3.wem</Path>
+						</File>
+						<File Id="1019035245" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_6DE646F8.wem</Path>
+						</File>
+						<File Id="1025363167" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Asphalt, Male, Walk SND11513_4F8AB0C4.wem</Path>
+						</File>
+						<File Id="1058919184" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Walk SND62096.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Walk SND62096_4A5CAAF7.wem</Path>
+						</File>
+						<File Id="1073684059" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Walk SND62078_94F643C0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{0E6C3B27-0AC9-4916-B685-EE202F068AB9}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{EAD18208-65A8-4113-8F9A-C046A143A34D}">
+							<Media>
+								<File Id="291007145"/>
+								<File Id="559903479"/>
+								<File Id="651092857"/>
+								<File Id="915307309"/>
+								<File Id="1025363167"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0E6C3B27-0AC9-4916-B685-EE202F068AB9}">
+							<Media>
+								<File Id="178967168"/>
+								<File Id="235702066"/>
+								<File Id="401220887"/>
+								<File Id="692551543"/>
+								<File Id="883709967"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1D43C7A6-B39A-4091-AC01-A8D01E9727C8}">
+							<Media>
+								<File Id="217606597"/>
+								<File Id="929528488"/>
+								<File Id="934637379"/>
+								<File Id="1019035245"/>
+								<File Id="1058919184"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9428A7DD-95AD-4CEF-AF68-56AC7C3C396E}">
+							<Media>
+								<File Id="223320999"/>
+								<File Id="557910328"/>
+								<File Id="663079663"/>
+								<File Id="797607508"/>
+								<File Id="1073684059"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="430510777" Name="Play_Player_Jump_Surfaces_Land" ObjectPath="\Events\Player\Play_Player_Jump_Surfaces_Land" GUID="{9DD7574E-53E6-48CC-A90E-AD8B34CDF0DD}" DurationType="OneShot" DurationMin="0.471705" DurationMax="0.93567">
+					<IncludedMemoryFiles>
+						<File Id="56279338" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_11B9C4CD.wem</Path>
+						</File>
+						<File Id="117683304" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_FDE0760C.wem</Path>
+						</File>
+						<File Id="120239249" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_AE2C70BF.wem</Path>
+						</File>
+						<File Id="322813587" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_B52DD7C7.wem</Path>
+						</File>
+						<File Id="326645023" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_6D5E831E.wem</Path>
+						</File>
+						<File Id="400192822" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_41053B37.wem</Path>
+						</File>
+						<File Id="482868954" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_54D2CDDA.wem</Path>
+						</File>
+						<File Id="533890618" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Dirty Ground, Jump, Land SND62080_12504A64.wem</Path>
+						</File>
+						<File Id="559171842" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_CB74DCE5.wem</Path>
+						</File>
+						<File Id="580992338" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_B591D624.wem</Path>
+						</File>
+						<File Id="597971374" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_8D2CF0EF.wem</Path>
+						</File>
+						<File Id="667000604" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_26A6DF40.wem</Path>
+						</File>
+						<File Id="680316540" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_7C2B6B9E.wem</Path>
+						</File>
+						<File Id="693883534" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_E74E11C0.wem</Path>
+						</File>
+						<File Id="726227790" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_E78E2C9E.wem</Path>
+						</File>
+						<File Id="735102470" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Rock, Surface, Jump On SND62097_99422746.wem</Path>
+						</File>
+						<File Id="785347739" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_67A1A082.wem</Path>
+						</File>
+						<File Id="855867508" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_F6D2E88D.wem</Path>
+						</File>
+						<File Id="945068288" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Grass, Jump, Land 01 SND62077_DA457DEE.wem</Path>
+						</File>
+						<File Id="986271614" Language="SFX">
+							<ShortName>Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070.wav</ShortName>
+							<Path>SFX\Soundly Audio\Footsteps, Human, Jump, Land, Ground, Gravel SND62070_D562F117.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{5C7D8371-0957-4387-8643-FFDD9E1D977F}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{6AD61F31-1908-4DE6-84CF-83886D937AA2}">
+							<Media>
+								<File Id="326645023"/>
+								<File Id="597971374"/>
+								<File Id="667000604"/>
+								<File Id="855867508"/>
+								<File Id="986271614"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5C7D8371-0957-4387-8643-FFDD9E1D977F}">
+							<Media>
+								<File Id="56279338"/>
+								<File Id="580992338"/>
+								<File Id="726227790"/>
+								<File Id="785347739"/>
+								<File Id="945068288"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{8A255B8A-0D89-42B3-8778-6C2BF180CAB2}">
+							<Media>
+								<File Id="117683304"/>
+								<File Id="120239249"/>
+								<File Id="322813587"/>
+								<File Id="400192822"/>
+								<File Id="533890618"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3707BBC2-4834-4D45-A2A8-F8D8490AFB77}">
+							<Media>
+								<File Id="482868954"/>
+								<File Id="559171842"/>
+								<File Id="680316540"/>
+								<File Id="693883534"/>
+								<File Id="735102470"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4136083405" Name="Play_Player_Shield_Block" ObjectPath="\Events\Player\Play_Player_Shield_Block" GUID="{0D9F4941-1721-45E1-A1AC-A82CA19F1F1D}" DurationType="OneShot" DurationMin="0.834161" DurationMax="1.016993">
+					<IncludedMemoryFiles>
+						<File Id="61363525" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_E1AD509E.wem</Path>
+						</File>
+						<File Id="152956660" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_93B7FBED.wem</Path>
+						</File>
+						<File Id="182868088" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_E06EF51D.wem</Path>
+						</File>
+						<File Id="621411069" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_39FC1AAE.wem</Path>
+						</File>
+						<File Id="647158515" Language="SFX">
+							<ShortName>Soundly Audio\Bullets, Impact, Metal, Light SND6392.wav</ShortName>
+							<Path>SFX\Soundly Audio\Bullets, Impact, Metal, Light SND6392_B3B29648.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="618472270" Name="Play_Player_Torch" ObjectPath="\Events\Player\Play_Player_Torch" GUID="{92DA51D6-5EC6-41C6-BC3E-9041353FA11B}" DurationType="OneShot" DurationMin="0.874585" DurationMax="1.154022">
+					<IncludedMemoryFiles>
+						<File Id="448187577" Language="SFX">
+							<ShortName>Soundly Audio\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961.wav</ShortName>
+							<Path>SFX\Soundly Audio\Fire, Torch, Classic, Wax, Swoosh, Some Strange Ones, Various Speed SND60961_1DD73615.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4114690507" Name="Play_Stinger_Portal_Period" ObjectPath="\Events\Music\Play_Stinger_Portal_Period" GUID="{7D6EE120-C87C-4847-97CA-DAC45117620F}" DurationType="OneShot" DurationMin="2.45" DurationMax="2.45">
+					<IncludedMemoryFiles>
+						<File Id="313583393" Language="SFX">
+							<ShortName>Stinger_Portal_Period.wav</ShortName>
+							<Path>SFX\Stinger_Portal_Period_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="81718927" Name="SW_Player_Jump_Surfaces" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces" GUID="{4BBF7F8E-E054-455D-885B-7FBDEF403077}">
+					<Switches>
+						<Switch Id="2495190089" Name="Herbe" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Herbe" GUID="{5C7D8371-0957-4387-8643-FFDD9E1D977F}"/>
+						<Switch Id="508852877" Name="Terre" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Terre" GUID="{8A255B8A-0D89-42B3-8778-6C2BF180CAB2}"/>
+						<Switch Id="3139576136" Name="Trottoir" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\Trottoir" GUID="{3707BBC2-4834-4D45-A2A8-F8D8490AFB77}"/>
+						<Switch Id="3343757356" Name="PaveRoche" ObjectPath="\Switches\Default Work Unit\SW_Player_Jump_Surfaces\PaveRoche" GUID="{6AD61F31-1908-4DE6-84CF-83886D937AA2}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1052610541" Name="SW_Player_FT_Surfaces" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces" GUID="{48B93E73-97D2-41C3-A046-B49FBF5A809A}">
+					<Switches>
+						<Switch Id="2495190089" Name="Herbe" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Herbe" GUID="{0E6C3B27-0AC9-4916-B685-EE202F068AB9}"/>
+						<Switch Id="3343757356" Name="PaveRoche" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\PaveRoche" GUID="{1D43C7A6-B39A-4091-AC01-A8D01E9727C8}"/>
+						<Switch Id="3139576136" Name="Trottoir" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Trottoir" GUID="{EAD18208-65A8-4113-8F9A-C046A143A34D}"/>
+						<Switch Id="508852877" Name="Terre" ObjectPath="\Switches\Default Work Unit\SW_Player_FT_Surfaces\Terre" GUID="{9428A7DD-95AD-4CEF-AF68-56AC7C3C396E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -486,6 +486,11 @@
 						<MusicSegment Name="Music_Epoque_Intro_95bpm_L12m_P4b" ID="{FD2684E5-36DC-40B2-BC18-29752AF7911B}" ShortID="739297051">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="15157.899122807"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -519,6 +524,7 @@
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
+											<ReferenceList/>
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>
@@ -587,6 +593,9 @@
 							</PropertyList>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{F8738406-6DFF-4121-90DF-F837CF067381}">
+									<PropertyList>
+										<Property Name="PlayDestinationPreEntry" Type="bool" Value="False"/>
+									</PropertyList>
 									<TransitionInfo/>
 								</MusicTransition>
 							</ChildrenList>

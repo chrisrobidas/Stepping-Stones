@@ -1,0 +1,17 @@
+{
+ "PluginInfo": {
+  "Project": "GameJam2023_MTL",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "Plugins": [
+   {
+    "Name": "System",
+    "ID": "11403271"
+   },
+   {
+    "Name": "No Output",
+    "ID": "11862023"
+   }
+  ]
+ }
+}

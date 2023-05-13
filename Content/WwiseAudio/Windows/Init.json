@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Unreal_Projects\\MTL_Game_Jam_2023\\GameJam2023_MTL\\",
+   "SourceFilesRoot": "D:\\Unreal_Projects\\MTL_Game_Jam_2023\\GameJam2023_MTL\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Unreal_Projects\\MTL_Game_Jam_2023\\Content\\WwiseAudio\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Unreal_Projects\\MTL_Game_Jam_2023\\GameJam2023_MTL\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "617952016",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}
